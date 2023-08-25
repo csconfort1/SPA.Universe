@@ -1,0 +1,162 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root 
+{
+    font-size: 62.5%; 
+    
+    --tt-primary: #E1E1E6;
+    --tt-nav-link: #C4C4CC;
+    --bt-on-hover: #02799D;
+}
+
+body 
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.background 
+{
+    background-image: url(./assets/mountains-universe-1.png);
+}
+
+.the-universe-background 
+{
+    background-image: url(./assets/mountains-universe-2.png);
+}
+
+.exploration-background 
+{
+    background-image: url(./assets/mountains-universe-3.png);
+}
+
+nav 
+{
+    display: flex;
+    gap: 3.2rem;
+    margin: 4rem 7.2rem 0;
+    align-items: center;
+
+}
+
+nav a 
+{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+
+    text-decoration: none;
+    line-height: 22px;
+    
+    color: #C4C4CC;
+   
+    transition: 0.5s;
+}
+
+nav a:hover 
+{
+    color: white;
+    scale: 1.1;
+}
+
+.link-on-focus 
+{
+    color: white;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+.app 
+{
+    height: 100vh;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+
+    margin: 10.2rem;
+}
+
+h1 
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.8rem;
+
+    line-height: 125%;
+
+    color: #E1E1E6;
+}
+
+.app p 
+{
+    width: 65rem;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    
+    line-height: 160%;
+
+    color: #E1E1E6;
+}
+
+
+.home-page 
+{
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    padding-bottom: 25rem;
+
+    margin: 0;
+}
+
+main a 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+   
+    line-height: 2.4rem;
+
+
+    width: 195px;
+    height: 48px;
+    text-decoration: none;
+    color: white;
+
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+main a:hover 
+{
+    background: #FFFFFF;
+    color: #02799D; 
+}
+
+.hide 
+{
+    display: none;
+    opacity: 0;
+}
